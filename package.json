@@ -2,11 +2,11 @@
   "name": "ecommerce-backend",
   "version": "1.0.0",
   "description": "",
-  "proxy": "http://3000/",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -80,7 +80,7 @@ exports.resetPasswordRequest = async (req, res) => {
 
     // Also set token in email
     const resetPageLink =
-      'http://localhost:8080/reset-password?token=' + token + '&email=' + email;
+      'https://vercel.com/iamharsh05/bloom-housewares/reset-password?token=' + token + '&email=' + email;
     const subject = 'reset password for Bloom Housewares';
     const html = `<p>Click <a href='${resetPageLink}'>here</a> to Reset Password</p>`;
 

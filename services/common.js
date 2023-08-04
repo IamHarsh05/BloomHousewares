@@ -6,8 +6,8 @@ let transporter = nodemailer.createTransport({
   port: 587,
   secure: false, // true for 465, false for other ports
   auth: {
-    user: 'coderdost@gmail.com', // gmail
-    pass: process.env.MAIL_PASSWORD, // pass
+    user: 'harshy050902@gmail.com', // gmail
+    pass: process.env.OWN_Mail_Password, // pass
   },
 });
 
@@ -31,7 +31,7 @@ exports.cookieExtractor = function (req) {
 
 exports.sendMail = async function ({to, subject, text, html}){
     let info = await transporter.sendMail({
-        from: '"E-commerce" <coderdost@gmail.com>', // sender address
+        from: '"BloomHousewares"<' + process.env.OWN_Mail + '>', // sender address
         to,
         subject,
         text,
@@ -169,7 +169,7 @@ exports.invoiceTemplate = function(order){
           <tr>
             <td align="center" valign="top" style="padding: 36px 24px;">
               <a href="https://sendgrid.com" target="_blank" style="display: inline-block;">
-                <img src="./img/paste-logo-light@2x.png" alt="Logo" border="0" width="48" style="display: block; width: 48px; max-width: 48px; min-width: 48px;">
+                <img src="./bloom.png" alt="BloomHousewares" border="0" width="48" style="display: block; width: 48px; max-width: 48px; min-width: 48px;">
               </a>
             </td>
           </tr>

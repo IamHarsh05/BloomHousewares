@@ -80,7 +80,7 @@ exports.resetPasswordRequest = async (req, res) => {
 
     // Also set token in email
     const resetPageLink =
-      'https://bloom-housewares.vercel.app/reset-password?token=' + token + '&email=' + email;
+      'http://localhost:3000/reset-password?token=' + token + '&email=' + email;
     const subject = 'reset password for Bloom Housewares';
     const html = `<p>Click <a href='${resetPageLink}'>here</a> to Reset Password</p>`;
 
@@ -113,7 +113,7 @@ exports.resetPassword = async (req, res) => {
         user.password = hashedPassword;
         user.salt = salt;
         await user.save();
-        const subject = 'password successfully reset for e-commerce';
+        const subject = 'Password Successfully Reseted for BloomHousewares';
         const html = `<p>Successfully able to Reset Password</p>`;
         if (email) {
           const response = await sendMail({ to: email, subject, html }); 

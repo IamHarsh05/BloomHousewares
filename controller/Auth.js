@@ -28,7 +28,7 @@ exports.createUser = async (req, res) => {
             );
             res
               .cookie('jwt', token, {
-                expires: new Date(Date.now() + 3600000),
+                expires: new Date(Date.now() + 15811200000),
                 httpOnly: true,
               })
               .status(201)
@@ -46,7 +46,7 @@ exports.loginUser = async (req, res) => {
   const user = req.user;
   res
     .cookie('jwt', user.token, {
-      expires: new Date(Date.now() + 3600000),
+      expires: new Date(Date.now() + 15811200000),
       httpOnly: true,
     })
     .status(201)
@@ -80,7 +80,7 @@ exports.resetPasswordRequest = async (req, res) => {
 
     // Also set token in email
     const resetPageLink =
-      'http://localhost:3000/reset-password?token=' + token + '&email=' + email;
+      'https://bloom-housewares.vercel.app/reset-password?token=' + token + '&email=' + email;
     const subject = 'reset password for Bloom Housewares';
     const html = `<p>Click <a href='${resetPageLink}'>here</a> to Reset Password</p>`;
 

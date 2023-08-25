@@ -123,6 +123,11 @@ exports.resetPassword = async (req, res) => {
         }
       }
     );
+    res
+    .cookie('jwt', null, {
+      expires: new Date(Date.now()),
+      httpOnly: true,
+    })
   } else {
     res.sendStatus(400);
   }

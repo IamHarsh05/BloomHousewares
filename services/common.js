@@ -169,7 +169,7 @@ exports.invoiceTemplate = function(order){
           <tr>
             <td align="center" valign="top" style="padding: 36px 24px;">
               <a href="https://sendgrid.com" target="_blank" style="display: inline-block;">
-                <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c695454c-6d3f-47b2-a615-96586f2b68de.jpg" alt="BloomHousewares" border="0" width="100%" style="display: block; width: 48px; max-width: 48px; min-width: 48px;">
+                <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c695454c-6d3f-47b2-a615-96586f2b68de.jpg" alt="BloomHousewares" border="0" width="100%" style="display: block; width: 600px; max-width: 600px; min-width: 48px;">
               </a>
             </td>
           </tr>

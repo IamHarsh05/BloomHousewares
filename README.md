@@ -1,10 +1,12 @@
 # BloomHousewares
 
+## Sign Up Page
+![Sign Up Page](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/sign_up.png)
 
-![Sign Up PAge](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/sign_up.png)
-
+## Login Page
 ![Login Page](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/sign_in.png)
 
+## Home Page
 ![Home Page](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/1.png)
 
 ## Overview
@@ -62,17 +64,17 @@ Make sure to review the documentation for each dependency to understand their us
 
 Functionalities:
 
-##Product Page
+## Product Page
 ![Product Page](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/2.png)
 
-##Cart Page
+## Cart Page
 ![Cart Page](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/3.png)
 
-##Payment Page
+## Payment Page
 ![Payment Page](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/4.png)
 
-##Orders Page (Only For Admins)
+## Orders Page (Only For Admins)
 ![Orders Page (Only For Admins)](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/5.png)
 
-##Edit/Add Product Page (Only For Admins)
+## Edit/Add Product Page (Only For Admins)
 ![Edit/Add Product Page (Only For Admins)](https://github.com/IamHarsh05/BloomHousewares/blob/main/Photos/6.png)

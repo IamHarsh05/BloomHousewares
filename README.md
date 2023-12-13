@@ -25,25 +25,25 @@ Welcome to the Ecommerce Node.js app! This application serves as the backend for
 ### Clone the repository:
 
 Change into the project directory:
-###`cd ecommerce-backend`
+### `cd ecommerce-backend`
 
 Install the dependencies:
-###`npm install`
+### `npm install`
 
 ##Usage
 To run the application, use the following command:
-###`npm start`
+### `npm start`
 
 For development with auto-restart on file changes, use:
-###`npm run dev`
+### `npm run dev`
 
-##Scripts
+## Scripts
 `start`: Runs the application using node index.js.
 `dev`: Runs the application in development mode using nodemon index.js.
 `build`: Builds the application using react-scripts build.
 `test`: Placeholder script for running tests.
 
-##Dependencies
+## Dependencies
 connect-sqlite: ^0.0.1
 connect-sqlite3: ^0.9.13
 cookie-parser: ^1.4.6

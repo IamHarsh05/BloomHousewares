@@ -38,29 +38,29 @@ For development with auto-restart on file changes, use:
 ### `npm run dev`
 
 ## Scripts
-`start`: Runs the application using node index.js.
-`dev`: Runs the application in development mode using nodemon index.js.
-`build`: Builds the application using react-scripts build.
-`test`: Placeholder script for running tests.
+- `start`: Runs the application using node index.js.
+- `dev`: Runs the application in development mode using nodemon index.js.
+- `build`: Builds the application using react-scripts build.
+- `test`: Placeholder script for running tests.
 
 ## Dependencies
-connect-sqlite: ^0.0.1
-connect-sqlite3: ^0.9.13
-cookie-parser: ^1.4.6
-cors: ^2.8.5
-dotenv: ^16.0.3
-express: ^4.18.2
-express-session: ^1.17.3
-jsonwebtoken: ^9.0.0
-mongodb: ^5.7.0
-mongoose: ^7.4.0
-nodemailer: ^6.9.2
-nodemon: ^3.0.1
-passport: ^0.6.0
-passport-jwt: ^4.0.1
-passport-local: ^1.0.0
-stripe: ^12.4.0
-Make sure to review the documentation for each dependency to understand their usage and configuration.
+- connect-sqlite: ^0.0.1
+- connect-sqlite3: ^0.9.13
+- cookie-parser: ^1.4.6
+- cors: ^2.8.5
+- dotenv: ^16.0.3
+- express: ^4.18.2
+- express-session: ^1.17.3
+- jsonwebtoken: ^9.0.0
+- mongodb: ^5.7.0
+- mongoose: ^7.4.0
+- nodemailer: ^6.9.2
+- nodemon: ^3.0.1
+- passport: ^0.6.0
+- passport-jwt: ^4.0.1
+- passport-local: ^1.0.0
+- stripe: ^12.4.0
+- Make sure to review the documentation for each dependency to understand their usage and configuration.
 
 Functionalities:
 
